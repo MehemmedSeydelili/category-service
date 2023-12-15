@@ -29,6 +29,13 @@ dependencies {
 	runtimeOnly 'com.oracle.database.jdbc:ojdbc11'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.mapstruct:mapstruct:1.5.3.Final'
+	annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.3.Final'
+	testAnnotationProcessor 'org.mapstruct:mapstruct-processor:1.5.3.Final'
+	implementation 'org.slf4j:slf4j-api:2.0.5'
+	implementation 'ch.qos.logback:logback-classic:1.4.7'
+	implementation group: 'org.springdoc', name: 'springdoc-openapi-starter-webmvc-ui', version: '2.0.2'
+
 }
 
 tasks.named('test') {
