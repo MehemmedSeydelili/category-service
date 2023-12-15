@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: category-service
+
+#server:
+#  error:
+#    include-message: always
+#
+#logging:
+#  level:
+#    az:
+#      expressbank:
+#        t24fsservice: DEBUG
+#
+#management:
+#  info:
+#    java:
+#      enabled: true
+#  tracing:
+#    sampling:
+#      probability: 1.0
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+#        exclude: 'shutdown, liquibase, env'
